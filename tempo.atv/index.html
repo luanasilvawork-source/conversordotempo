@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="css/styler.css">
+</head>
+
+<body>
+
+    <h1>Conversor de Temperatura</h1>
+
+    <form>
+
+        <!-- BLOCO 1 – Fahrenheit -->
+        <div class="bloco">
+            <label for="temperatura" class="titulo-caixa">Grau</label>
+            <input id="temperatura" placeholder="Digite aqui a temperatura">
+            <label for="origem">Unidade de origem</label>
+            <select name="origem" id="origem">
+                <option value="farenheit">Farenheit</option>
+                <option value="celsius">Celsius</option>
+            </select>
+        </div>
+
+        <span class="igual">=</span>
+
+        <!-- BLOCO 2 – Celsius -->
+        <div class="bloco">
+            <label for="resultado" class="titulo-caixa">Grau </label>
+            <input id="resultado" placeholder="Resultado">
+            <label for="destino">Unidade de destino</label>
+            <select name="destino" id="destino">
+                <option value="farenheit">Farenheit</option>
+                <option value="celsius">Celsius</option>
+            </select>
+        </div>
+
+    </form>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
